@@ -47,7 +47,6 @@ body {
 
     &__container {
         padding: 140px 0 106px 0;
-        max-width: 600px;
     }
 
     &__icon {
@@ -69,7 +68,9 @@ body {
         line-height: 29px;
         font-weight: 400;
         letter-spacing: 0.06em;
-        margin-bottom: 130px;
+        max-width: 600px;
+        display: block;
+        margin:0 auto 130px auto;
     }
 
     &__scroll {
@@ -80,7 +81,7 @@ body {
 .about {
 
     &__container {
-        padding: 150px;
+        padding: 150px 0;
     }
 
     &__title {
