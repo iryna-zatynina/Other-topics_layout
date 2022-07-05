@@ -76,12 +76,15 @@
 
 @media  (max-width: 767px) {
     .container {
-        max-width: 480px;
-        
+        max-width: 450px;
     }
 
-    .header {
-        height: 100vh;
+    
+
+    .about {
+        &__fieldset {
+            padding: 0;
+        }
     }
 }
 
@@ -100,11 +103,16 @@
         &__text {
             width: 100%;
         }
+       
     }
 
     .services {
         &__text {
             margin-bottom: 20px;
+        }
+
+        &__fieldset {
+            padding: 0;
         }
     }
 
@@ -131,11 +139,20 @@
             grid-template: repeat(3, 1fr) / 1fr 1fr;
             margin-bottom: 54px;
         }
+        &__title {
+            font-size: 20px;
+            margin-left: 10px;
+        }
     }
 
     .contact {
         &__title {
             margin-bottom: 30px;
+            padding: 0 10px;
+
+        }
+        &__fieldset {
+            padding: 0;
         }
     }
 

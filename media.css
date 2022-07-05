@@ -50,10 +50,10 @@
 
 @media (max-width: 767px) {
   .container {
-    max-width: 480px;
+    max-width: 450px;
   }
-  .header {
-    height: 100vh;
+  .about__fieldset {
+    padding: 0;
   }
 }
 
@@ -70,6 +70,9 @@
   .services__text {
     margin-bottom: 20px;
   }
+  .services__fieldset {
+    padding: 0;
+  }
   .what-we-do__container {
     padding: 50px 0;
   }
@@ -85,8 +88,16 @@
         grid-template: repeat(3, 1fr)/1fr 1fr;
     margin-bottom: 54px;
   }
+  .cards__title {
+    font-size: 20px;
+    margin-left: 10px;
+  }
   .contact__title {
     margin-bottom: 30px;
+    padding: 0 10px;
+  }
+  .contact__fieldset {
+    padding: 0;
   }
   .footer__icon {
     margin: 34px 36px 34px 0;
